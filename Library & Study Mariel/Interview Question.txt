@@ -1,0 +1,29 @@
+1.What is JavaScript?
+         JavaScript is the Programming Language for the Web.
+         JavaScript can calculate, manipulate and validate data.
+         JavaScript is a programming language commonly used in web development.
+         It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.
+         ... For example, a JavaScript function may check a web form before 
+         it is submitted to make sure all the required fields have been filled out.
+
+2.DOM - Document Object Model?
+The Document Object Model (DOM) is an application programming interface (API) for HTML and XML documents.
+ It defines the logical structure of documents and the way a document is accessed and manipulated.
+Structure of DOM:
+DOM can be thought of as a Tree or Forest(more than one tree). 
+The term structure model is sometimes used to describe the tree-like representation of a document.
+ One important property of DOM structure models is structural isomorphism:
+ if any two DOM implementations are used to create a representation of the same document,
+ they will create the same structure model, with precisely the same objects and relationships.
+
+3.Is the DOM a tree?
+Image result for DOM stands for
+The Document Object Model (DOM) is a standard convention for accessing and manipulating elements within HTML and XML documents.
+ Elements in the DOM are organized into a tree-like data structure that can be traversed to navigate, locate, or modify elements and/or content within an XML/HTML document.
+
+4.JavaScript used for?
+   Desktop App and Standalone App
+   Web App
+   Mobile App
+
+5.

@@ -1,0 +1,412 @@
+*
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial Black, Gadget, sans-serif;
+}
+#top
+{
+	background-color: #E6E7E9;
+	width: 100%;
+	display: flex;
+	height: 40px;
+	border-bottom-style: dashed;
+	border-width: 1px;
+
+
+}
+
+#top h2
+{
+	float: left;
+	color: #4E6779;
+	margin-left: 200px;
+	font-size: 19px;
+	margin-top: 8px;
+}
+#top h2:hover
+{
+	color: black;
+}
+#top ul li a i:hover
+{
+	color: #1FC3BC;
+}
+#top ul li a:hover
+{
+	color: #1FC3BC;
+}
+#top ul
+{
+ margin-left: 400px;
+ margin-top: 10px;
+}
+#top ul li
+{
+	
+	display: inline;
+	padding: 10px;
+
+
+}
+#top ul li a
+{
+	text-decoration: none;
+	color: #A8A8A8;
+	font-size: 13px;
+	margin-top: -10px;
+
+
+}
+#top ul li a i
+{
+	margin-left: 10px;
+	font-size: 15px;
+}
+#header
+{
+	width: 100%;
+	height: 300px;
+}
+#header a img
+{
+ width: 350px;
+ height: 100px;
+ margin-left: 500px;
+ padding: 20px;
+ margin-top: 30px;
+}
+#header ul
+{
+	text-align: center;
+}
+#header ul li
+{
+	display: inline-block;
+	padding: 20px;
+}
+#header ul li a
+{
+	text-decoration: none;
+	font-size: 18px;
+}
+#banner
+{
+	
+	background-image: url("../IMAGE/the-beacon.jpg");
+	width: 100%;
+	height: 554px;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 60px;
+
+}
+#banner h2
+{
+ background-color: white;
+ width: 500px;
+ padding: 5px;
+ font-size: 22px;
+ margin-left: 700px;
+}
+#banner h3
+{
+	background-color: black;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	margin-left: 700px;
+	width: 500px;
+	font-family: poller_oneregular;
+}
+#banner a
+{
+ text-decoration: none;
+}
+#banner a p
+{
+	color: white;
+	background-color: #0BA39C;
+	padding: 20px 10px;
+	width: 150px;
+	font-size: 15px;
+	margin-left: 700px;
+	font-family: poller_oneregular;
+
+}
+#banner a p:hover
+{
+	background-color: #1fc3bc;
+}
+#banner1
+{
+	margin-top: -60px;
+	overflow: hidden;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+#banner1 ul
+{
+	margin-top: 40px;
+}
+#banner1 ul li
+{
+	display: inline-block;
+	padding: 10px;
+	
+}
+#banner1 ul li img
+{
+	border: 1px solid black;
+	opacity: 0.8;
+}
+#banner1 ul li img:hover
+{
+	opacity: 1.0;
+}
+#banner1 ul li a
+{
+	text-decoration: none;
+}
+#banner1 ul li a h3
+{
+	color: #000;
+	font-family: poller_oneregular;
+	font-size: 25px;
+	font-weight: 30px;
+	text-transform: uppercase;
+}
+#bottom
+{
+	background-color: black;
+	clear: both;
+	width: 100%;
+	height: 120px;
+	background-position: bottom;
+	background-attachment: fixed;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+#bottom footer
+{
+	float: left;
+	color: white;
+	margin-top: 50px;
+	margin-left: 200px;
+	font-size: 14px;
+}
+#bottom ul
+{
+	float: right;
+	margin-right: 200px;
+	margin-top: 30px;
+}
+#bottom ul li
+{
+	display: inline-block;
+	padding: 10px;
+}
+#bottom ul li a img
+{
+	color: black;
+}
+#bottom ul li a img:hover
+{
+	background-color: white;
+}
+#middle
+{
+	width: 100%;
+	height: 0 auto;
+	margin-top: -20px;
+
+}
+.aboutbody h1
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin:0px 365px;
+	font-size: 40px;
+    font-family: poller_oneregular, sans-serif;
+    padding: 10px;
+    font-weight: normal;
+}
+.aboutbody img
+{
+	margin-top: 25px;
+	margin-left: 365px; 
+}
+.aboutbody h3
+{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: new;
+	font-
+}
+.aboutbody p
+{
+	text-align: center;
+	margin: 0px 370px;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: new;
+	
+}
+.aboutbody p a
+{
+	color: black;
+
+}
+.gallery
+{
+	text-align: center;
+	margin: 0 100px;
+}
+.gallery h2
+{
+    background-color: black;
+	color: white;
+	text-align: center;
+	margin:0 430px;
+	padding: 10px;
+	font-size: 40px;
+    font-family: poller_oneregular, sans-serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.gallery a
+{
+	padding: 10px;
+	display: inline-block;
+	
+}
+.gallery a img
+{
+	border: 1px solid black;
+	height: 300px;
+	opacity: 0.8;
+}
+.gallery a img:hover
+{
+	opacity: 1.0;
+}
+.blog h2
+{
+    background-color: black;
+	color: white;
+	text-align: center;
+	margin:0 570px;
+	padding: 10px;
+	font-size: 40px;
+    font-family: poller_oneregular, sans-serif;
+    margin-bottom: 10px;
+}
+.img1 a
+{
+	float: left;
+	clear: both;
+	margin-left: 200px;
+}
+.img1 img
+{
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	height: 290px;
+}
+.img2
+{
+	float: right;
+	clear: both;
+	border: 2px solid black;
+	width: 600px;
+	margin-right: 175px;
+	height: 290px;
+	margin-top: -299px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.img2 h3
+{
+	font-size: 22px;
+}
+.img2 p
+{
+ font-size: 19px;
+ font-weight: normal;
+ font-family: times new roman;
+ padding-top: 20px;
+ word-spacing: 3px;
+ line-height: 30px;
+
+}
+.img2 h5
+{
+	background-color: black;
+	border: 2px solid black;
+	color: white;
+	width: 150px;
+	margin-left: 220px;
+	padding: 5px 10px;
+	font-size: 18px;
+}
+.img2 h5:hover
+{
+	color: black;
+	background-color: white;
+}
+.contact h2
+{
+    background-color: black;
+	color: white;
+	text-align: center;
+	margin:0 auto;
+	padding: 10px;
+	width: 600px;
+	font-size: 40px;
+    font-family: poller_oneregular, sans-serif;
+    margin-bottom: 10px;
+}
+form
+{
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 300px;
+
+}
+form input
+{
+ display: block;
+ padding: 20px 300px;
+ border: 2px solid black;
+ text-align: center;
+ font-size: 15px;
+ margin-top: 20px;
+}
+.MESSAGE
+{
+	padding: 100px 300px;
+}
+button
+{
+	padding: 20PX 30px;
+	margin-right: 250px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 1px;
+	border: 2px solid black;
+
+}
+button:hover
+{
+	background-color: white;
+	color: black;
+}

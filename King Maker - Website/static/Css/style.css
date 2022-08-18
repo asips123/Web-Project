@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gold;
+    margin: 10px;
+}
+
+  #front{
+      z-index: 1;
+      position: relative;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+.header{   
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    text-align: center;     
+}
+.head::after{
+    display: table;
+    content: "";
+    clear: both;    
+}
+.header i{
+    font-size: 50px;
+    position: relative;        
+}
+.topnav{
+    overflow: hidden;
+    background-color: green;
+}
+.topnav a{
+    color: white;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font: 17px;
+}
+.active{
+    background-color: red;
+}
+#dropdown{
+    float: left;
+    overflow: hidden;
+}
+#dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropcont{
+      position: absolute;
+      background-color: cadetblue;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      display: none;
+  }
+  .dropcont a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  #dropdown:hover .dropcont{
+      display: block;
+  }
+  .side{
+      font-size: 17px;
+      float: right;
+      text-transform: uppercase;
+      margin-right: 20px;
+  }
+
+#box{
+    border: 2px solid green;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    padding: 2px;
+
+}
+#box img{
+    width: 100%;
+    height: 400px;
+}
+button
+{
+ margin-top: -180px;
+ position: relative;
+ font-size: 30px;
+ background-color: gold;
+
+}
+.prev{
+    float: left;
+    margin-left: 10px;
+}
+.next{
+    float: right;
+    margin-right: 10px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;    
+}
+.connect{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    column-count: 2;
+    background-color: indigo;
+}
+.connect a{    
+    border: 2px solid green;
+    background-color: hotpink;
+    padding: 20px 0px;
+    position: relative;    
+}
+.connect a i{
+    font-size: 25px;
+    margin: 30px;
+    color: yellow;
+
+}
+.row1{
+    
+    width: 48%;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+}
+.row2::after{
+    content: "";
+    clear: both;
+    display: table;   
+}
+.cont{
+    
+    width: 68%;
+    height: 510px;
+    float: left;
+    margin-left: 10px;
+}
+.col1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.gallery{
+    width: 25%;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #ccc;
+}
+.gallery img{
+    width: 100%;
+    height: 225px;
+}
+.gallery:hover {
+    border: 1px solid #777;
+}
+.disc{
+    padding: 16px;
+    color: white;
+    background-color: green;
+}
+.gallery:hover .disc{
+    background-color: red;
+    color: white;
+}
+.col2{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.col2 h2{
+    position: relative;
+    animation-name: ex;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;   
+}
+@keyframes ex{
+    0%{left: 0px; top:0px}
+    /*25%{left: 10%;top: 0px;}
+    35%{left: 20%; top: 0px;}
+    45%{left: 35%; top: 0px;}*/
+    50%{left: 0px; top: 0px;}
+    /*65%{left: -10%; top: 0px;}
+    75%{left: -20%; top: 0px;}*/
+    85%{left: -35%; top: 0px;}
+    100%{left: 0px;  top: 0px;}    
+
+}
+.col2 h3{
+    position: relative;
+    animation-name: ex1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+@keyframes ex1{
+    0%{left: 0px; top:0px}
+    /*25%{left: -10%;top: 0px;}
+    35%{left: -20%; top: 0px;}*/
+    45%{left: -35%; top: 0px;}
+    50%{left: 0px; top: 0px;}
+    /*65%{left: 10%; top: 0px;}
+    75%{left: 20%; top: 0px;}*/
+    85%{left: 35%; top: 0px;}
+    100%{left: 0px;  top: 0px;}    
+
+}
+.form{
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+    padding-left: 30px;
+    float: right;
+    background-color: lightcoral;
+}
+.form h2{
+    text-align: center;
+}
+.form input{
+    width: 80%;
+    padding: 5px;
+}
+.form textarea{
+    width: 100%;
+}
+#submit{
+    background-color: black;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.footer{
+    background-color: gold;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+@media screen and (max-width:700px){
+    .row1,.connect,.cont,.form{
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+}

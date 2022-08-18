@@ -1,0 +1,73 @@
+c:::::::::::::::::::::::::::::::::::::::::::::: BASIC HTML CODE :::::::::::::::::::::::::::::::::::::::::::::::
+ <html>
+ <head>
+ <title>Free Web Designing Training In Tamil</title>
+ <meta name="description" content="Free web designing training powered by Sathya">
+ <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+ <meta name="author" content="Sathya">
+ <meta charset="UTF-8"> 
+</head> 
+<body> 
+</body> 
+
+</html>
+
+ ::::::::::::::::::::::::::::::::::::::::::::::: MOST USED TAGS ::::::::::::::::::::::::::::::::::::::::::::::: :::::::::::: 
+
+Heading Tags :::::::::::: 
+<h1>Heading Tags</h1>
+ <h2>Heading Tags</h2> 
+<h3>Heading Tags</h3> 
+<h4>Heading Tags</h4>
+ <h5>Heading Tags</h5>
+ <h6>Heading Tags</h6> 
+
+:::::::::::: Paragraph Tags :::::::::::: 
+
+<p>Paragraph Tags</p> 
+
+:::::::::::: Font Style Tags :::::::::::: 
+
+<b></b> <i></i> <u></u> 
+
+:::::::::::: Break & Line Tags :::::::::::: 
+
+<br> <hr> 
+
+:::::::::::: Image Tags :::::::::::: 
+
+<img src="URL" alt="Alternate Text" height="42" width="42"> ::::::::
+
+:::: Table Tags :::::::::::: 
+
+<table border="1">   
+<tr>     <th>table header</th>     
+<th>table header</th>   </tr>   
+<tr>     <td>table data</td>     
+<td>table data</td>   
+</tr> </table> 
+
+:::::::::::: List Tags :::::::::::: 
+
+<ol>   
+<li>First item</li>   
+<li>Second item</li> 
+</ol> <ul>  
+ <li>Item</li>   
+<li>Item</li> 
+</ul> 
+
+:::::::::::: Link Tags :::::::::::: 
+
+<a href="URL">Link Text</a> 
+
+:::::::::::: Alignment Tags :::::::::::: 
+
+align="right" align="left" align="center" 
+
+:::::::::::: Marquee Tags :::::::::::: 
+
+<marquee behavior="scroll" direction="down">Your slide-in text goes here</marquee> 
+behavior="scroll" | behavior="slide" direction="left" | 
+direction="right" | direction="down" | direction="up" 
+

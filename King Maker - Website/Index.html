@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href=".//static/Css/style.css">
+    <link rel="stylesheet" href="..//King Maker - Website/css/all.css">
+</head>
+<body>
+    
+      <div id="front">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="header">        
+        <div class="head">
+            <i class="fas fa-chess" style="color: red;"></i>
+            <h1 style="color: green;">King Maker</h1>
+    </div>        
+    </div>
+
+        <div class="topnav">        
+            <a href="#" class="active">HOME</a>
+            <a href="#">ABOUT</a>            
+            <div id="dropdown"> 
+                <button class="dropbtn" style="border: none;">PROJECT</button>
+                 <div class="dropcont">          
+                    <a href="#">HTML</a>
+                    <a href="#">CSS</a>
+                    <a href="#">JAVASCRIPT</a>
+                    <a href="#">REACT JS</a>
+                    </div>             
+            </div>   
+            <a href="#">CONTACT</a>
+            <div class="side">
+                <a href="#">Log In</a>
+            </div>            
+
+        </div>
+        <div id="box">
+                <img src="static/Image/02.jpg" alt="img1">                  
+            </div>
+                <button class="prev" onclick="prevImage()"><</button>
+                <button class="next" onclick="nextImage()">></button>
+        <div class="row">
+            <div class="connect">
+                <a href="#"><i class="fab fa-twitter-square">Twitter</i></a><br>
+                <a href="#"><i class="fab fa-google-plus-square">Google</i></a><br>
+                <a href="#"><i class="fab fa-facebook-square">Facebook</i></a><br>
+                <a href="#"><i class="fab fa-whatsapp-square">Whatsapp</i></a><br>
+                <a href="#"><i class="fab fa-linkedin">Linkedin</i></a><br>
+                <a href="#"><i class="fab fa-skype">Skype</i></a><br>
+                <a href="#"><i class="fab fa-instagram-square">Instagram</i></a><br>
+                <a href="#"><i class="fas fa-envelope-square">Mail</i></a><br>
+            </div>
+        <div class="row1">
+            <video height="340px" style="width: 100%;" controls>
+                <source src="..//vi.mp4" type="video/mp4">
+                <source src="..//vi.ogg" type="video/ogg">
+            </video>           
+        </div>
+        </div>
+
+        <div class="row2">
+            <div class="cont">
+               <div class="col1">
+                   <div class="gallery">
+                   <img src="..//King Maker - Website/static/Image/02.jpg" alt="Img1">
+                   <div class="disc">Image 1</div>
+                   </div>
+                   <div class="gallery">
+                    <img src="..//King Maker - Website/static/Image/03.jpg" alt="Img2">
+                    <div class="disc">Image 2</div>
+                    </div>
+                    <div class="gallery">
+                    <img src="..//King Maker - Website/static/Image/04.jpg" alt="Img3">
+                    <div class="disc">Image 3</div>
+                    </div>
+                    <div class="gallery">
+                        <img src="..//King Maker - Website/static/Image/05.jpg" alt="Img3">
+                        <div class="disc">Image 4</div>
+                        </div>
+                    
+               </div>
+               <div class="col2">
+                   <h2 style="color: magenta;">Thank You !</h2>
+                   <h3 style="color: blue;">Visit Again !!</h3>
+               </div>
+            </div>
+            <div class="form">
+            <h2>Enquiry Form</h2>
+            <form action="/action_page.php">
+                <label for="First Name">First Name:-</label><br>
+                <input type="text" name="FName" value=""><br>
+                <label for="Last Name">Last Name:-</label><br>
+                <input type="text" name="LName" value=""><br>
+                <label for="Phone Nember">Phone Number:-</label><br>
+                <input type="number" name="Number" value=""><br>
+                <label for="mail">E-Mail:-</label><br>
+                <input type="email" name="E-mail" value=""><br>
+                <label for="Comment">Comment:-</label><br>
+                <textarea name="text" id="" cols="30" rows="10"></textarea><br>
+                <input type="submit" id="submit"value="submit">
+            </form>
+        </div>
+        </div>
+        <div class="footer">
+            <div class="topnav">        
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">PROJECT</a> 
+                <a href="#">CONTACT</a>
+            <P style="color: white; float: right; margin-right: 40px;">@Copyrights Reserved By KingMaker</P>
+        </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var slide_content=document.getElementById('box');
+      	 var image=["static/Image/04","static/Image/03","static/Image/05"];
+      	 var i=image.length;
+
+      	 function nextImage() {
+      	 	if(i<image.length){
+      	 		i=i+1;
+      	 	}else{
+      	 		i=1;
+      	 	}slide_content.innerHTML="<img src="+image[i-1]+".jpg>";
+               
+      	 	
+      	 }setInterval(nextImage,4000);
+      	 function prevImage() {
+      	 	if(i<image.length+1 && i>1){
+      	 		i=i-1;
+      	 	}else{
+      	 		i=image.length;
+      	 	}slide_content.innerHTML="<img src="+image[i-1]+".jpg>";
+      	 }
+           var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+        
+</body>
+</html>
